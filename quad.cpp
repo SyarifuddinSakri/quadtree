@@ -1,11 +1,10 @@
 #include "quad.h"
 #include "particle.h"
 #include <GL/gl.h>
-#include <iostream>
 #include <GLFW/glfw3.h>
+#include <iostream>
 
 Quadtree::Quadtree(int x, int y, int width, int height):x(x), y(y), width(width), height(height){
-	std::cout<<"Breaking"<<std::endl;
 	this->divided = false;
 }
 
